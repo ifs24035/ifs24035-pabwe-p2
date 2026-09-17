@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curriculum Vitae — Immanuel Parasian Lumbantobing</title>
+  <!-- Tailwind CSS 4 Play CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <style type="text/tailwindcss">
+    @theme {
+      --color-brand-50: #eef2ff;
+      --color-brand-100: #e0e7ff;
+      --color-brand-500: #4f46e5;
+      --color-brand-600: #4338ca;
+      --color-brand-900: #0f172a;
+      --font-heading: "Poppins", sans-serif;
+      --font-body: "Inter", sans-serif;
+    }
+    body { font-family: var(--font-body); }
+    h1, h2, h3, .brand-logo { font-family: var(--font-heading); }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-700 antialiased min-h-screen flex flex-col justify-between">
+
+  <!-- NAVBAR KONSISTEN -->
+  <nav class="bg-white/90 backdrop-blur-md border-b border-slate-200 sticky top-0 z-50">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="index.html" class="brand-logo font-bold text-xl text-slate-900 tracking-tight flex items-center gap-1">
+        <span>🧠</span>NovaMind<span class="text-brand-500">AI</span>
+      </a>
+      <div class="flex gap-6 text-sm font-medium items-center">
+        <a href="index.html" class="hover:text-brand-500 transition text-slate-600">Beranda</a>
+        <a href="index.html#layanan" class="hover:text-brand-500 transition text-slate-600">Layanan</a>
+        <a href="blog.html" class="hover:text-brand-500 transition text-slate-600">Blog</a>
+        <a href="cv.html" class="bg-brand-500 text-white px-4 py-2 rounded-full font-semibold shadow-sm hover:bg-brand-600 transition">CV</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="max-w-5xl mx-auto px-6 py-10 flex-grow">
+
+    <!-- HEADER PROFIL CV -->
+    <header class="bg-white rounded-2xl shadow-sm border border-slate-200 p-8 flex flex-col md:flex-row items-center md:items-start gap-8 mb-8">
+      <img src="https://picsum.photos/id/64/200/200" alt="Foto Profil Developer" class="w-32 h-32 rounded-2xl object-cover ring-4 ring-brand-100 shadow-md">
+      <div class="text-center md:text-left flex-grow">
+        <h1 class="text-2xl md:text-3xl font-bold text-slate-900">Immanuel Parasian Lumbantobing</h1>
+        <p class="text-brand-500 font-semibold mt-1 text-lg">Aspiring AI Engineer &amp; Full-Stack Developer</p>
+        <p class="text-xs text-slate-400 mt-1">Informatics Student @ Institut Teknologi Del</p>
+        
+        <div class="flex flex-wrap justify-center md:justify-start gap-x-6 gap-y-2 mt-4 text-sm text-slate-600 border-t border-slate-100 pt-4">
+          <span class="flex items-center gap-1">📧 immanuel@ifsdel.ac.id</span>
+          <span class="flex items-center gap-1">📱 +62 812-xxxx-xxxx</span>
+          <span class="flex items-center gap-1">📍 Laguboti, Sumatera Utara</span>
+          <a href="#" class="text-brand-500 font-medium hover:underline flex items-center gap-1">GitHub ↗</a>
+          <a href="#" class="text-brand-500 font-medium hover:underline flex items-center gap-1">LinkedIn ↗</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="grid md:grid-cols-3 gap-8">
+
+      <!-- KOLOM UTAMA / KIRI -->
+      <div class="md:col-span-2 space-y-8">
+
+        <!-- RINGKASAN DIRI -->
+        <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6">
+          <h2 class="text-lg font-bold text-slate-900 mb-3 flex items-center gap-2">
+            <span class="w-2 h-6 bg-brand-500 rounded-full inline-block"></span>
+            Tentang Saya
+          </h2>
+          <p class="text-sm leading-relaxed text-slate-600">
+            Mahasiswa S1 Informatika di Institut Teknologi Del yang berfokus pada pengembangan sistem cerdas berbasis AI, rekayasa data, serta pengembangan aplikasi web full-stack. Berpengalaman memimpin tim kompetisi hackathon dan aktif mengeksplorasi integrasi Large Language Model (LLM) serta arsitektur software modern.
+          </p>
+        </section>
+
+        <!-- PENGALAMAN & PROYEK -->
+        <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6">
+          <h2 class="text-lg font-bold text-slate-900 mb-6 flex items-center gap-2">
+            <span class="w-2 h-6 bg-brand-500 rounded-full inline-block"></span>
+            Pengalaman &amp; Kompetisi
+          </h2>
+          <div class="space-y-6">
+            <div class="border-l-2 border-brand-500 pl-4 space-y-1">
+              <div class="flex justify-between items-start">
+                <h3 class="font-semibold text-slate-800">Ketua Tim "Calon S.Kom" — Del AI Hackathon 2026</h3>
+                <span class="text-xs bg-slate-100 px-2 py-1 rounded text-slate-500 font-medium">2026</span>
+              </div>
+              <p class="text-sm text-slate-600">Merancang dan membangun sistem AI Pariwisata "TobaLink" menggunakan Python, Streamlit, dan integrasi API AI modern.</p>
+            </div>
+
+            <div class="border-l-2 border-brand-500 pl-4 space-y-1">
+              <div class="flex justify-between items-start">
+                <h3 class="font-semibold text-slate-800">Finalis UI/UX Competition — IT FAIR XIV V2</h3>
+                <span class="text-xs bg-slate-100 px-2 py-1 rounded text-slate-500 font-medium">2026</span>
+              </div>
+              <p class="text-sm text-slate-600">Mendesain prototipe aplikasi Smart City "SIGAP" berorientasi pada pelayanan masyarakat dan terintegrasi asisten AI.</p>
+            </div>
+
+            <div class="border-l-2 border-brand-500 pl-4 space-y-1">
+              <div class="flex justify-between items-start">
+                <h3 class="font-semibold text-slate-800">Peserta Del AI Bootcamp 2026</h3>
+                <span class="text-xs bg-slate-100 px-2 py-1 rounded text-slate-500 font-medium">2026</span>
+              </div>
+              <p class="text-sm text-slate-600">Menyelesaikan pelatihan intensif Python, Machine Learning, dan Deep Learning yang diselenggarakan IT Del &amp; Epsindo.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- PORTOFOLIO WEBSITE LAB -->
+        <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6">
+          <h2 class="text-lg font-bold text-slate-900 mb-4 flex items-center gap-2">
+            <span class="w-2 h-6 bg-brand-500 rounded-full inline-block"></span>
+            Proyek Praktikum (PABWE P2)
+          </h2>
+          <div class="grid sm:grid-cols-2 gap-4">
+            <a href="index.html" class="block rounded-xl border border-slate-200 p-4 hover:border-brand-500 hover:shadow-md transition bg-slate-50/50">
+              <h3 class="font-semibold text-slate-800 flex items-center gap-2">
+                🧠 NovaMind AI — Landing Page
+              </h3>
+              <p class="text-xs text-slate-500 mt-2">Landing page perusahaan jasa AI menggunakan HTML &amp; External CSS murni.</p>
+            </a>
+            <a href="blog.html" class="block rounded-xl border border-slate-200 p-4 hover:border-brand-500 hover:shadow-md transition bg-slate-50/50">
+              <h3 class="font-semibold text-slate-800 flex items-center gap-2">
+                📰 NovaMind AI — Blog System
+              </h3>
+              <p class="text-xs text-slate-500 mt-2">Sistem blog berita &amp; wawasan AI dengan Bootstrap 5 &amp; Bootstrap Icons.</p>
+            </a>
+          </div>
+        </section>
+      </div>
+
+      <!-- KOLOM SAMPING / KANAN -->
+      <div class="space-y-8">
+
+        <!-- PENDIDIKAN -->
+        <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6">
+          <h2 class="text-lg font-bold text-slate-900 mb-4 flex items-center gap-2">
+            <span class="w-2 h-6 bg-brand-500 rounded-full inline-block"></span>
+            Pendidikan
+          </h2>
+          <div class="border-l-2 border-brand-500 pl-4 space-y-1">
+            <h3 class="font-semibold text-slate-800 text-sm">Institut Teknologi Del</h3>
+            <p class="text-xs text-slate-500">S1 Informatika</p>
+            <p class="text-xs text-brand-600 font-medium">2024 — Sekarang (Semester 4)</p>
+          </div>
+        </section>
+
+        <!-- KEAHLIAN / SKILLS -->
+        <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6">
+          <h2 class="text-lg font-bold text-slate-900 mb-4 flex items-center gap-2">
+            <span class="w-2 h-6 bg-brand-500 rounded-full inline-block"></span>
+            Keahlian Teknikal
+          </h2>
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-brand-50 text-brand-600 border border-brand-100 text-xs font-semibold px-3 py-1.5 rounded-full">HTML5 &amp; CSS3</span>
+            <span class="bg-brand-50 text-brand-600 border border-brand-100 text-xs font-semibold px-3 py-1.5 rounded-full">Bootstrap 5</span>
+            <span class="bg-brand-50 text-brand-600 border border-brand-100 text-xs font-semibold px-3 py-1.5 rounded-full">Tailwind CSS 4</span>
+            <span class="bg-brand-50 text-brand-600 border border-brand-100 text-xs font-semibold px-3 py-1.5 rounded-full">Java &amp; Python</span>
+            <span class="bg-brand-50 text-brand-600 border border-brand-100 text-xs font-semibold px-3 py-1.5 rounded-full">Data Structures</span>
+            <span class="bg-brand-50 text-brand-600 border border-brand-100 text-xs font-semibold px-3 py-1.5 rounded-full">Machine Learning</span>
+            <span class="bg-brand-50 text-brand-600 border border-brand-100 text-xs font-semibold px-3 py-1.5 rounded-full">Figma (UI/UX)</span>
+            <span class="bg-brand-50 text-brand-600 border border-brand-100 text-xs font-semibold px-3 py-1.5 rounded-full">Git &amp; GitHub</span>
+          </div>
+        </section>
+
+        <!-- SERTIFIKAT & PENGHARGAAN -->
+        <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6">
+          <h2 class="text-lg font-bold text-slate-900 mb-4 flex items-center gap-2">
+            <span class="w-2 h-6 bg-brand-500 rounded-full inline-block"></span>
+            Sertifikasi
+          </h2>
+          <ul class="text-xs space-y-3 text-slate-600">
+            <li class="flex items-start gap-2">
+              <span class="text-brand-500">✔</span>
+              <span>Gen AI Engineer Track — Coding Camp 2026 (DBS Foundation)</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-brand-500">✔</span>
+              <span>Sertifikat Del AI Bootcamp 2026 (IT Del &amp; Epsindo)</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-brand-500">✔</span>
+              <span>Samsung Solve for Tomorrow 2025 Preliminary Round</span>
+            </li>
+          </ul>
+        </section>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER KONSISTEN -->
+  <footer class="bg-slate-900 text-slate-400 text-xs py-8 border-t border-slate-800 mt-12">
+    <div class="max-w-5xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
+      <p>&copy; 2026 Immanuel Parasian Lumbantobing. Dibuat dengan Tailwind CSS 4.</p>
+      <div class="flex gap-4">
+        <a href="index.html" class="hover:text-white transition">Beranda</a>
+        <a href="blog.html" class="hover:text-white transition">Blog</a>
+        <a href="cv.html" class="hover:text-white transition">CV</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
