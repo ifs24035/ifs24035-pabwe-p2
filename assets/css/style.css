@@ -496,6 +496,11 @@ h1, h2, h3, h4 {
   font-size: 0.85rem;
 }
 
+/* ===== FIX: Kontras logo di footer (dark background) ===== */
+.site-footer .accent {
+  color: #818cf8; /* indigo-400 — lebih terang, aman di background gelap */
+}
+
 /* ===== RESPONSIVE MEDIA QUERIES ===== */
 @media (max-width: 992px) {
   .hero-inner, .tentang-inner, .kontak-inner {
